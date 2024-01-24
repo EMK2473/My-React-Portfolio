@@ -97,7 +97,7 @@ export const testimonials = [
   },
   {
     quote:
-      `"I endorse Eric's candidacy for employment, aiming to gain firsthand insights into their professional performance, facilitating an informed decision for potential future collaboration."`,
+      `"Give this man a job!"`,
     image: "https://randomuser.me/api/portraits/men/72.jpg",
     name: "Eliot Cleveland (hopefully)",
     company: "Teaching Assistant",
