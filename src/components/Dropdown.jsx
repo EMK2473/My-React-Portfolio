@@ -3,6 +3,8 @@ import { Dropdown } from 'semantic-ui-react';
 
 const MultiSelectDropdown = () => {
     const options = [
+        { key: 'employment', value: 'employment', text: 'Employment' },
+        { key: 'consultation', value: 'consultation', text: 'Consultation' },
         { key: 'javascript', value: 'javascript', text: 'JavaScript' },
         { key: 'react', value: 'react', text: 'React' },
         { key: 'nextjs', value: 'nextjs', text: 'Next.js' },
@@ -29,7 +31,7 @@ const MultiSelectDropdown = () => {
       selection
       options={options}
       className="w-full bg-gray-800 rounded border border-gray-700"
-      defaultValue={['javascript', 'react', 'nosql']} // Default selected values
+      defaultValue={['employment', 'consultation', 'javascript']} // Default selected values
     />
   );
 };
