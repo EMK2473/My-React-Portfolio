@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import MultiSelectDropdown from "./Dropdown";
 import { Dropdown } from 'semantic-ui-react';
 
 export default function Contact() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [requiredFields, setRequiredFields] = useState([]);
 
   function encode(data) {
     return Object.keys(data).map(
@@ -14,8 +15,26 @@ export default function Contact() {
     );
   }
 
+  function handleBlur(field) {
+    if (field === "name" && name === "") {
+      setRequiredFields(["name"]);
+    } else if (field === "email" && email === "") {
+      setRequiredFields(["email"]);
+    } else if (field === "message" && message === "") {
+      setRequiredFields(["message"]);
+    } else {
+      setRequiredFields([]);
+    }
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
+    // Check if all required fields are filled before submitting
+    if (name === "" || email === "" || message === "") {
+      setRequiredFields(["name", "email", "message"]);
+      return;
+    }
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -24,6 +43,7 @@ export default function Contact() {
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
   }
+
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -59,21 +79,21 @@ export default function Contact() {
           </div>
         </div>
         <form
-      netlify
-      name="contact"
-      className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-    >
-      <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-        Contact Me
-      </h2>
-      <p className="leading-relaxed mb-5">
-        <div className="relative mb-4">
-          <label htmlFor="skills" className="leading-7 text-sm text-gray-400">
-            About
-          </label>
-          <MultiSelectDropdown />
-        </div>
-      </p>
+          netlify
+          name="contact"
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
+          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+            Contact Me
+          </h2>
+          <p className="leading-relaxed mb-5">
+            <div className="relative mb-4">
+              <label htmlFor="skills" className="leading-7 text-sm text-gray-400">
+                About
+              </label>
+              <MultiSelectDropdown />
+            </div>
+          </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
@@ -82,8 +102,12 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ring-gray-400 ring-2"
+              className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ring-gray-400 ring-2 ${requiredFields.includes("name") ? 'border-red-500' : ''}`}
+              onBlur={() => handleBlur("name")}
             />
+            {requiredFields.includes("name") && (
+              <span className="text-red-500 text-sm mt-1">Name is required</span>
+            )}
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
@@ -93,8 +117,12 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ring-gray-400 ring-2"
+              className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ring-gray-400 ring-2 ${requiredFields.includes("email") ? 'border-red-500' : ''}`}
+              onBlur={() => handleBlur("email")}
             />
+            {requiredFields.includes("email") && (
+              <span className="text-red-500 text-sm mt-1">Email is required</span>
+            )}
           </div>
           <div className="relative mb-4">
             <label
@@ -106,8 +134,12 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out ring-gray-400 ring-2"
+              className={`w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out ring-gray-400 ring-2 ${requiredFields.includes("message") ? 'border-red-500' : ''}`}
+              onBlur={() => handleBlur("message")}
             />
+            {requiredFields.includes("message") && (
+              <span className="text-red-500 text-sm mt-1">Message is required</span>
+            )}
           </div>
           <button
             type="submit"
