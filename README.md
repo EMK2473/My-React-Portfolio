@@ -3,7 +3,9 @@
  
  Licensing: [mit](https://choosealicense.com/licenses/mit/)
 
-## Link to [My Portfolio](https://magnificent-pithivier-fd5a98.netlify.app/)
+# Links
+- [My Portfolio](https://magnificent-pithivier-fd5a98.netlify.app/)
+- [GitHub Repo](https://github.com/EMK2473/My-Portfolio-React?tab=readme-ov-file)
 
 ## Table of Contents
 - [Description](#description)
