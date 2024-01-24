@@ -61,6 +61,15 @@ export const projects = [
     link: "https://superb-dragon-e1dd77.netlify.app/",
     repoLink: "https://github.com/EMK2473/generateReadmeFrontEnd/"
   },
+  {
+    title: "Random Password Generator",
+    subtitle: "RNG for Passwords",
+    description:
+      "A single function handling random passwords.",
+    image: "./pwordGif.gif",
+    link: "https://emk2473.github.io/password-generator/",
+    repoLink: "https://github.com/EMK2473/password-generator/"
+  },
 ];
 
 export const testimonials = [
