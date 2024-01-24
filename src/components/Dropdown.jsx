@@ -28,7 +28,8 @@ const MultiSelectDropdown = () => {
       multiple
       selection
       options={options}
-      defaultValue={['javascript', 'nosql']} // Default selected values
+      className="w-full bg-gray-800 rounded border border-gray-700"
+      defaultValue={['javascript', 'react', 'nosql']} // Default selected values
     />
   );
 };
