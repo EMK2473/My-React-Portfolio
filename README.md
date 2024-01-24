@@ -5,7 +5,7 @@
 
 # Links
 - [My Portfolio](https://magnificent-pithivier-fd5a98.netlify.app/)
-- [GitHub Repo](https://github.com/EMK2473/My-Portfolio-React?tab=readme-ov-file)
+- [GitHub Repo](https://github.com/EMK2473/My-React-Portfolio)
 
 ## Table of Contents
 - [Description](#description)
