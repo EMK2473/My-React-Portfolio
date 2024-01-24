@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Working from "./components/Working"
-import Dropdown from "./components/Dropdown"
+
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <About />
       <Projects />
       <Skills />
-      <Dropdown />
       <Working />
       <Testimonials />
       <Contact />
