@@ -3,6 +3,8 @@
  
  Licensing: [mit](https://choosealicense.com/licenses/mit/)
 
+## Link to [My Portfolio](https://magnificent-pithivier-fd5a98.netlify.app/)
+
 ## Table of Contents
 - [Description](#description)
 - [Installation Requirements](#installation-requirements)
@@ -14,13 +16,15 @@
 My new portfolio using React, TailwindCSS, and Vite!
 
 ## Installation Requirements
-npm i && npm run dev
+- npm install  
+- npm run dev
 
 ## Application Usage
-Utilize my portfolio to contact me for hire!
+Utilize my portfolio to view my work and contact me for hire!
 
 ## Contributions
 Eric Keeton
 
 ## Questions
 For Questions, contact me at emk2473@gmail.com or visit My Github: [EMK2473](https://github.com/EMK2473)
+
