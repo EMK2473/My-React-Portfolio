@@ -73,7 +73,7 @@ export const testimonials = [
   },
   {
     quote:
-      `"Give this man a job!"`,
+      `"You better hire him before I do!"`,
     image: "https://randomuser.me/api/portraits/men/72.jpg",
     name: "Eliot Cleveland (hopefully)",
     company: "Teaching Assistant",
