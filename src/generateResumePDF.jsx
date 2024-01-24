@@ -4,7 +4,7 @@ const generateAndSavePDF = () => {
   const pdf = new jsPDF();
   
   // Add title
-  pdf.text("Eric Keeton's Resume", 10, 10);
+  pdf.text("Eric Keeton's Placeholder Resume", 10, 10);
 
   // Add proficiency section
   pdf.text("Proficient in:", 10, 20);
@@ -22,8 +22,21 @@ const generateAndSavePDF = () => {
     "CSS",
     "Git",
     "XML",
-    "SVG"
+    "SVG",
+    "jQuery",
+    "APIs",
+    "AJAX",
+    "Agile Workflow",
+    "SCRUM Methodology",
+    "Agile Methodologies (Scrum, Kanban, SAFe, etc.)",
+    "Project Management",
+    "Software Development",
+    "Team Building",
+    "Problem-Solving",
+    "Time Management",
+    "Quality Assurance",
   ];
+  
 
   // Add skills list
   skills.forEach((skill, index) => {
