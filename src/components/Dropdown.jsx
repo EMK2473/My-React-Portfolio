@@ -48,7 +48,7 @@ const MultiSelectDropdown = () => {
       selection
       options={options}
       className="w-full bg-gray-800 rounded border border-gray-700"
-      defaultValue={['employment', 'consultation', 'javascript']} // Default selected values
+      defaultValue={['employment', 'consultation', 'javascript']} 
     />
   );
 };

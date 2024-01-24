@@ -55,10 +55,6 @@ export default function Contact() {
               <a href="mailto:emk2473@gmail.com" className="text-lime-400 leading-relaxed">
                 emk2473@gmail.com
               </a>
-              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">804-937-3742</p> */}
             </div>
           </div>
         </div>
