@@ -29,7 +29,6 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // Check if all required fields are filled before submitting
     if (name === "" || email === "" || message === "") {
       setRequiredFields(["name", "email", "message"]);
       return;
