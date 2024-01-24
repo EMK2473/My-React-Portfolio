@@ -23,7 +23,7 @@ export default function Navbar() {
             Testimonials
           </a>
           <a href="#working" className="mr-5 hover:text-white">
-            Currently Working On
+            In Progress
           </a>
         </nav>
         <div className="flex items-center">
