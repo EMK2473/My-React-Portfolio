@@ -30,6 +30,7 @@ export const projects = [
       "A Tech Blog Site using the Model, Controller, and View framework.",
     image: "./techBlog.gif",
     link: "https://mvc-tech-blogsite-dad8725474ac.herokuapp.com/",
+    repoLink: "https://github.com/EMK2473/MVC-Tech-Blog/"
   },
   {
     title: "Inventory Management System",
@@ -38,6 +39,7 @@ export const projects = [
       "An inventory management database for companies to manage their inventory through users providing live an up-to-date inventory information.",
     image: "./invWarMan.gif",
     link: "https://inv-man-system-b9da5a82b52b.herokuapp.com/login",
+    repoLink: "https://github.com/EMK2473/Inventory-Management-Database/"
   },
   {
     title: "Note Taker",
@@ -45,6 +47,7 @@ export const projects = [
     description: "An Application for writing and saving notes using a server.",
     image: "./expNoteGIF.gif",
     link: "https://exp-note-taker-app-7afdb91c4244.herokuapp.com/",
+    repoLink: "https://github.com/EMK2473/ExpressNoteTaker/"
   },
   {
     title: "J.A.T.E.",
@@ -53,6 +56,7 @@ export const projects = [
       "A text editor that runs in the browser. Create notes or code snippets with or without an internet connection so you can reliably retrieve them for later use!",
     image: "./jate.gif",
     link: "https://j-a-t-e-867088540b22.herokuapp.com/",
+    repoLink: "https://github.com/EMK2473/PWA-Text-Editor/"
   },
   {
     title: "Calliope's Commonplace",
@@ -61,6 +65,7 @@ export const projects = [
       "A Group Project designed to introduce API's and CSS Frameworks.",
     image: "./callCommGIF.gif",
     link: "https://emk2473.github.io/calliope-commonplace/",
+    repoLink: "https://github.com/EMK2473/calliope-commonplace/"
   },
   {
     title: "word.",
@@ -68,6 +73,8 @@ export const projects = [
     description: "A fun project to practice with React, Tailwind, and RNG.",
     image: "./word.gif",
     link: "https://darling-chebakia-cb0515.netlify.app/",
+    repoLink: "https://github.com/EMK2473/word/"
+
   },
   {
     title: "Professional ReadMe Generator",
@@ -76,6 +83,7 @@ export const projects = [
       "A web application designed to quickly generate a professional README.md file.",
     image: "./readmeGenerator.gif",
     link: "https://superb-dragon-e1dd77.netlify.app/",
+    repoLink: "https://github.com/EMK2473/generateReadmeFrontEnd/"
   },
 ];
 
