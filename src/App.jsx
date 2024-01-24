@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Working from "./components/Working"
 import Footer from "./components/Footer";
-
+import DevMethods from './components/DevMethods';
 function App() {
   return (
     <main className="text-lime-500 bg-black body-font">
@@ -15,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <DevMethods />
       <Working />
       <Testimonials />
       <Contact />

@@ -1,28 +1,4 @@
 export const projects = [
-  // {
-  //   title: "JavaScript Quiz",
-  //   subtitle: "JavaScript Quiz",
-  //   description:
-  //     "A quiz designed to test your knowledge of JavaScript",
-  //   image: "./jsquiz.gif",
-  //   link: "https://emk2473.github.io/javascript-quiz/",
-  // },
-  // {
-  //   title: "Daily Planner",
-  //   subtitle: "Sundial Daily Planner",
-  //   description:
-  //     "A Daily 9-5 Planner to help manage your time effectively.",
-  //   image: "./planner.gif",
-  //   link: "https://emk2473.github.io/daily-planner/",
-  // },
-  // {
-  //   title: "5-Day Weather Forecast",
-  //   subtitle: "5-Day Weather Forecast",
-  //   description:
-  //     "A 5-Day Weather Forecast Application.",
-  //   image: "./5dayGIF.gif",
-  //   link: "https://emk2473.github.io/weather-forecast/",
-  // },
   {
     title: "MVC Tech Blog",
     subtitle: "Online Blog Site",
@@ -105,40 +81,39 @@ export const testimonials = [
 ];
 
 export const skills = [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Node",
-    "Express",
-    "MySQL",
-    "NoSQL",
-    "GraphQL",
-    "Material UI",
-    "HTML",
-    "CSS",
-    "Git",
-    "XML",
-    "SVG",
-    "jQuery",
-    "APIs",
-    "AJAX",
-    "Agile Workflow",
-    "SCRUM Methodology",
-    "Agile Methodologies",
-    "Project Management",
-    "Software Development",
-    "Team Building",
-    "Problem-Solving",
-    "Time Management",
-    "Quality Assurance",
-  ];
+  "JavaScript",
+  "React",  
+  "Next.js",
+  "Node",
+  "Express",
+  "MySQL",
+  "NoSQL",
+  "GraphQL",
+  "Material UI",
+  "HTML",
+  "CSS",
+  "XML",
+  "SVG",
+  "jQuery",
+  "APIs",
+  "AJAX",
+]
+
+export const devMethods = [
+  "Agile Workflow",
+  "SCRUM",
+  "Quality Assurance",
+  "Team Building",
+  "Problem-Solving",
+  "Time Management",
+]
 
 
 export const working = [
   "VCU Engineering Program",
-  "Master SCRUM Certification",
-  "Python Certification",
-  "C Sharp Certification",
-  "Function Block Diagrams",
-  "FreeCodeCamp.com Certification",
+  "Certified ScrumMaster (CSM)",
+  "JavaScript Algorithms and Data Structures Certification",
+  "Front End Libraries Certification",
+  "Data Visualization Certification",
+  "APIs and Microservices Certification",
 ];
