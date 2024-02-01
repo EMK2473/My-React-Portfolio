@@ -75,7 +75,7 @@ export const projects = [
     subtitle: "Google Books Search Engine ",
     description:
       "A refactored Google Books Apollo Server, GraphQL application from a Restful API.",
-    image: "./mernGif.gif",
+    image: "./mernGIF.gif",
     link: "https://mern-books-0a09bedf27f5.herokuapp.com/",
     repoLink: "https://github.com/EMK2473/My-React-Portfolio/"
   },
