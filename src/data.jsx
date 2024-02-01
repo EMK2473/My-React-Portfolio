@@ -70,6 +70,15 @@ export const projects = [
     link: "https://emk2473.github.io/password-generator/",
     repoLink: "https://github.com/EMK2473/password-generator/"
   },
+  {
+    title: "MERN Book Search Engine",
+    subtitle: "Google Books Search Engine ",
+    description:
+      "A refactored Google Books Apollo Server, GraphQL application from a Restful API.",
+    image: "./mernGif.gif",
+    link: "https://mern-books-0a09bedf27f5.herokuapp.com/",
+    repoLink: "https://github.com/EMK2473/My-React-Portfolio/"
+  },
 ];
 
 export const testimonials = [

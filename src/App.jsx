@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Working from "./components/Working"
 import Footer from "./components/Footer";
 import DevMethods from './components/DevMethods';
+
 function App() {
   return (
     <main className="text-lime-500 bg-black body-font">
