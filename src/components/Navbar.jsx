@@ -19,11 +19,11 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
           <a href="#working" className="mr-5 hover:text-white">
             In Progress
+          </a>
+          <a href="#testimonials" className="mr-5 hover:text-white">
+            Testimonials
           </a>
         </nav>
         <div className="flex items-center">
