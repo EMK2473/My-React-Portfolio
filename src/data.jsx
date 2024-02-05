@@ -77,6 +77,15 @@ export const projects = [
     link: "https://mern-books-0a09bedf27f5.herokuapp.com/",
     repoLink: "https://github.com/EMK2473/My-React-Portfolio/",
   },
+  {
+    title: "JavaScript Snake",
+    subtitle: "JS Snake Browser Game",
+    description:
+      "A simple, JavaScript browser game: Snake.",
+    image: "./snakeGIF.gif",
+    link: "https://emk2473.github.io/JS-Snake-Game/",
+    repoLink: "https://github.com/EMK2473/JS-Snake-Game/",
+  },
 ];
 
 export const testimonials = [
