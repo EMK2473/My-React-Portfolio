@@ -86,6 +86,15 @@ export const projects = [
     link: "https://emk2473.github.io/JS-Snake-Game/",
     repoLink: "https://github.com/EMK2473/JS-Snake-Game/",
   },
+  {
+    title: "Wreck'd Treasure Tours",
+    subtitle: "Bootcamp Final Group Project",
+    description:
+      "A fun, creative, MERN Full Stack application about shipwrecks.",
+    image: "./wreckdTreasureGIF.gif",
+    link: "https://sheltered-island-02345-cf3621cb29c3.herokuapp.com/",
+    repoLink: "https://github.com/EMK2473/wreckd-treasure/",
+  },
 ];
 
 export const testimonials = [

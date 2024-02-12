@@ -11,6 +11,7 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
+          <h4>Call it a hobby.</h4>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base "></p>
         </div>
         <div className="flex flex-wrap -m-4 ">
