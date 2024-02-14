@@ -21,6 +21,10 @@ My new portfolio using React, TailwindCSS, and Vite!
 - npm install  
 - npm run dev
 
+## Application
+![Gif of application](./public/portfolioGIF.gif)
+
+
 ## Application Usage
 Utilize my portfolio to view my work and contact me for hire!
 
