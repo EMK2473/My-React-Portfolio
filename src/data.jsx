@@ -95,6 +95,15 @@ export const projects = [
     link: "https://sheltered-island-02345-cf3621cb29c3.herokuapp.com/",
     repoLink: "https://github.com/EMK2473/wreckd-treasure/",
   },
+  {
+    title: "Weather Forecast Dashboard",
+    subtitle: "An application designed to utilize local storage and fetches from APIs.",
+    description:
+      "A 5-Day Weather Forecast Dashboard.",
+    image: "./weatherDashboardGif.gif",
+    link: "https://five-day-weather-dashboard.netlify.app/",
+    repoLink: "https://github.com/EMK2473/Five-Day-Weather-Dashboard",
+  },
 ];
 
 export const testimonials = [
