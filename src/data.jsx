@@ -110,14 +110,14 @@ export const testimonials = [
   {
     quote: `"I strongly recommend Eric for their exceptional mental effort and consistent performance throughout the coding bootcamp."`,
     image: "https://randomuser.me/api/portraits/men/21.jpg",
-    name: "Jamie DeLong (hopefully)",
-    company: "Instructor",
+    name: "Jamie DeLong",
+    company: "U of R Bootcamp Instructor",
   },
   {
     quote: `"You better hire him before I do!"`,
     image: "https://randomuser.me/api/portraits/men/72.jpg",
-    name: "Eliot Cleveland (hopefully)",
-    company: "Teaching Assistant",
+    name: "Eliot Cleveland",
+    company: "U of R Bootcamp Teaching Assistant",
   },
 ];
 
