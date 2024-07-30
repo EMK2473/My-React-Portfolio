@@ -152,8 +152,7 @@ export const devMethods = [
 export const working = [
   "VCU Engineering Program",
   "Certified ScrumMaster (CSM)",
-  "JavaScript Algorithms and Data Structures Certification",
-  "Front End Libraries Certification",
-  "Data Visualization Certification",
-  "APIs and Microservices Certification",
+  "AWS Cloud Practitioner Certification",
+  "CEH (Certified Ethical Hacker) Certification",
+  "CPT (Certified Penetration Tester) Certification",
 ];
