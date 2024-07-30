@@ -12,16 +12,32 @@ const generateAndSavePDF = () => {
   pdf.text("Phone: (804) 937-3742 | Email: emk2473@gmail.com", 10, 20);
 
   // Links
+  pdf.setTextColor(0, 0, 0);
+  pdf.text("GitHub:", 10, 25, {
+  });
   pdf.setTextColor(0, 0, 255);
-  pdf.text("GitHub: https://github.com/EMK2473", 10, 25, {
+  pdf.text("https://github.com/EMK2473", 20, 25, {
     link: "https://github.com/EMK2473",
   });
-  pdf.text("LinkedIn: www.linkedin.com/in/eric-keeton-509a032a9/", 10, 30, {
+  pdf.setTextColor(0, 0, 0);
+  pdf.text("LinkedIn:", 10, 30, {
+
+  });
+  pdf.setTextColor(0, 0, 255);
+
+  pdf.text("www.linkedin.com/in/eric-keeton-509a032a9/", 22, 30, {
     link: "https://www.linkedin.com/in/eric-keeton-509a032a9/",
   });
+  pdf.setTextColor(0, 0, 0);
   pdf.text(
-    "Portfolio: https://magnificent-pithivier-fd5a98.netlify.app/",
+    "Portfolio:",
     10,
+    35,
+  );
+  pdf.setTextColor(0, 0, 255);
+  pdf.text(
+    "https://magnificent-pithivier-fd5a98.netlify.app/",
+    22,
     35,
     { link: "https://magnificent-pithivier-fd5a98.netlify.app/" }
   );
