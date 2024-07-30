@@ -125,7 +125,7 @@ const generateAndSavePDF = () => {
     maxWidth: 180,
   });
   pdf.text(
-    "Desinged as a single function application handling all necessary logic.",
+    "Designed  as a single function application handling all necessary logic.",
     10,
     135,
     { maxWidth: 180 }
