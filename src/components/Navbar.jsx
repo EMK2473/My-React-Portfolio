@@ -54,9 +54,9 @@ export default function Navbar() {
           <a href="#working" className="mr-5 hover:text-white">
             In Progress
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
-          </a>
+          </a> */}
         </nav>
         <div className="relative flex items-center">
           <a
