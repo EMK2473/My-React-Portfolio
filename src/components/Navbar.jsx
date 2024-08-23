@@ -34,12 +34,10 @@ export default function Navbar() {
   }, [dropdownOpen]);
 
   return (
-    <header className="bg-gray-600 md:sticky top-0 z-10">
+    <header className="bg-gray-600 sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Eric Keeton
-          </a>
+        <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0 text-xl">
+          Eric Keeton
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
           <a href="#about" className="mr-5 hover:text-white">
@@ -59,16 +57,15 @@ export default function Navbar() {
           </a> */}
         </nav>
         <div className="relative flex items-center">
-          <a
-            href="#resume"
+          <button
             onClick={() => setDropdownOpen(!dropdownOpen)}
             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-lime-500 hover:text-white rounded text-base mt-4 md:mt-0 mr-4"
           >
             Download My Resume
             <DownloadIcon className="w-4 h-4 ml-1" />
-          </a>
+          </button>
           {dropdownOpen && (
-            <div ref={dropdownRef} className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20">
+            <div ref={dropdownRef} className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-30">
               <a
                 href="#"
                 onClick={() => handleDownloadClick("pdf")}

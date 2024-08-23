@@ -1,0 +1,37 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(22, 22, 22); /* Change arrow background color to red */
+  opacity: .5;
+}
+
+.section {
+  color: #a6e22e; /* Example: Text color */
+  background-color: #000000; /* Example: Background color */
+}
+
+.container {
+  padding: 2.5rem 0; /* Example: Padding */
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 1.25rem; /* Example: Margin */
+}
+
+.title {
+  font-size: 2rem; /* Example: Font size */
+  color: #ffffff; /* Example: Title color */
+}
+
+.carouselImage {
+  width: 100%;
+  border-radius: 8px; /* Example: Border radius */
+}
+
+.subtitle, .description {
+  color: #ffffff; /* Example: Text color */
+}
+
+.button {
+  background-color: #343a40; /* Example: Button background */
+}
